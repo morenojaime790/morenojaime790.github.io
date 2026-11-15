@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>天美传媒_天美短视频内容创作MCN机构官网</title>
+<meta name="description" content="天美传媒MCN是专注影视短剧与达人孵化的传媒机构，旗下天美传媒创作者App v0.2.6 提供剧组通告接单、云端4K素材库、全平台数据看板、电子签约与T+1结算。支持安卓8.0+、iOS13+、鸿蒙及Windows/macOS，双周迭代更新，官方安装包免费下载。">
+<meta name="keywords" content="天美传媒,天美视频">
+<meta name="robots" content="index,follow">
+<meta name="author" content="天美传媒">
+<link rel="canonical" href="https://www.tianmeimedia.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="天美传媒">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="天美传媒_天美短视频内容创作MCN机构官网">
+<meta property="og:description" content="天美传媒MCN是专注影视短剧与达人孵化的传媒机构，旗下天美传媒创作者App v0.2.6 提供剧组通告接单、云端4K素材库、全平台数据看板、电子签约与T+1结算。支持安卓8.0+、iOS13+、鸿蒙及Windows/macOS，双周迭代更新，官方安装包免费下载。">
+<meta property="og:url" content="https://www.tianmeimedia.com/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0f2a44">
+<style>
+:root{
+  --ink:#0f2a44;
+  --ink-2:#41607a;
+  --ink-3:#6b8299;
+  --line:#e3ebf2;
+  --bg:#f6f9fc;
+  --card:#ffffff;
+  --accent:#0a7ea4;
+  --accent-soft:#e6f4f9;
+  --radius:14px;
+  --shadow:0 10px 30px rgba(15,42,68,.08);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--ink);
+  background:var(--bg);
+  line-height:1.78;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4{margin:0;line-height:1.3;letter-spacing:-.3px}
+p{margin:0}
+a{color:inherit;text-decoration:none}
+ul{margin:0;padding:0;list-style:none}
+.container{width:100%;max-width:1140px;margin:0 auto;padding:0 22px}
+.site-header{
+  position:sticky;top:0;z-index:30;
+  background:rgba(255,255,255,.94);
+  border-bottom:1px solid var(--line);
+  backdrop-filter:blur(10px);
+}
+.nav{display:flex;align-items:center;justify-content:space-between;height:66px;gap:18px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:17px}
+.brand-mark{
+  width:34px;height:34px;border-radius:10px;display:grid;place-items:center;
+  background:linear-gradient(135deg,#0a7ea4,#0f2a44);color:#fff;font-size:14px;font-weight:700;
+}
+.brand small{display:block;font-size:11px;font-weight:400;color:var(--ink-3);letter-spacing:1.2px}
+.nav-links{display:flex;align-items:center;gap:24px;font-size:14px;color:var(--ink-2)}
+.nav-links a{transition:color .18s ease}
+.nav-links a:hover{color:var(--accent)}
+.nav-cta{
+  display:inline-block;padding:9px 18px;border-radius:999px;font-size:14px;
+  background:var(--ink);color:#fff;white-space:nowrap;
+}
+.hero{padding:76px 0 60px;background:radial-gradient(1100px 480px at 12% -20%,#e2f1f8 0%,#f6f9fc 62%)}
+.hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:48px;align-items:center}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:999px;
+  background:var(--accent-soft);color:#0a6b8b;font-size:13px;font-weight:600;margin-bottom:20px;
+}
+.hero h1{font-size:42px;margin-bottom:18px}
+.hero h1 span{color:var(--accent)}
+.lead{font-size:17px;color:var(--ink-2);margin-bottom:30px;max-width:38em}
+.actions{display:flex;flex-wrap:wrap;gap:12px}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  padding:13px 26px;border-radius:10px;font-size:15px;font-weight:600;
+  border:1px solid transparent;transition:transform .18s ease,box-shadow .18s ease;
+}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:linear-gradient(135deg,#0a7ea4,#0b5f80);color:#fff;box-shadow:0 8px 20px rgba(10,126,164,.24)}
+.btn-ghost{background:#fff;border-color:var(--line);color:var(--ink)}
+.hero-note{margin-top:18px;font-size:13px;color:var(--ink-3)}
+.hero-card{
+  background:var(--card);border:1px solid var(--line);border-radius:18px;
+  padding:26px;box-shadow:var(--shadow);
+}
+.hero-card h2{font-size:15px;letter-spacing:1px;color:var(--ink-3);font-weight:600;margin-bottom:18px}
+.spec-list{display:grid;gap:14px}
+.spec-item{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;padding-bottom:14px;border-bottom:1px dashed var(--line)}
+.spec-item:last-child{border-bottom:0;padding-bottom:0}
+.spec-item dt{font-size:14px;color:var(--ink-2)}
+.spec-item dd{margin:0;font-size:14px;font-weight:700;text-align:right}
+.spec-item dd em{font-style:normal;color:var(--accent)}
+.section{padding:76px 0}
+.section-alt{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.section-head{max-width:46em;margin-bottom:44px}
+.section-head h2{font-size:30px;margin-bottom:14px}
+.section-head p{color:var(--ink-2);font-size:15.5px}
+.tag{font-size:12px;font-weight:700;letter-spacing:2px;color:var(--accent);text-transform:uppercase;display:block;margin-bottom:12px}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.about-text p+p{margin-top:16px}
+.about-list{display:grid;gap:16px}
+.about-list li{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:18px 20px;font-size:14.5px;color:var(--ink-2);
+}
+.about-list strong{display:block;color:var(--ink);font-size:15px;margin-bottom:4px}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:26px;box-shadow:0 6px 18px rgba(15,42,68,.05);
+  transition:transform .2s ease,box-shadow .2s ease;
+}
+.card:hover{transform:translateY(-3px);box-shadow:0 14px 32px rgba(15,42,68,.10)}
+.card-icon{
+  width:42px;height:42px;border-radius:11px;display:grid;place-items:center;
+  background:var(--accent-soft);color:#0a6b8b;font-weight:700;font-size:15px;margin-bottom:16px;
+}
+.card h3{font-size:18px;margin-bottom:10px}
+.card p{font-size:14.5px;color:var(--ink-2)}
+.card ul{margin-top:14px;display:grid;gap:8px}
+.card li{position:relative;padding-left:18px;font-size:13.8px;color:var(--ink-3)}
+.card li::before{
+  content:"";position:absolute;left:0;top:9px;width:6px;height:6px;border-radius:50%;background:var(--accent);
+}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);background:var(--card)}
+table{width:100%;border-collapse:collapse;min-width:640px;font-size:14.5px}
+caption{caption-side:top;text-align:left;padding:18px 20px 0;color:var(--ink-3);font-size:13px}
+th,td{padding:15px 20px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+thead th{background:#eef5fa;color:var(--ink);font-size:13.5px;letter-spacing:.4px;white-space:nowrap}
+tbody tr:last-child td{border-bottom:0}
+td strong{color:var(--ink)}
+.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;font-size:13.5px;color:#0a6b8b}
+.timeline{display:grid;gap:0;border-left:2px solid var(--line);padding-left:26px}
+.timeline li{position:relative;padding-bottom:26px}
+.timeline li:last-child{padding-bottom:0}
+.timeline li::before{
+  content:"";position:absolute;left:-33px;top:8px;width:12px;height:12px;border-radius:50%;
+  background:#fff;border:3px solid var(--accent);
+}
+.timeline h3{font-size:16px;margin-bottom:6px}
+.timeline p{font-size:14.5px;color:var(--ink-2)}
+.download{
+  background:linear-gradient(135deg,#0f2a44,#154862);
+  color:#fff;border-radius:20px;padding:48px;display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;
+}
+.download h2{font-size:28px;margin-bottom:14px;color:#fff}
+.download p{color:#c9dced;font-size:15px}
+.download .btn-primary{background:#fff;color:#0f2a44;box-shadow:none}
+.download-panel{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:var(--radius);padding:22px}
+.download-panel h3{font-size:14px;letter-spacing:1px;color:#bcd6e8;margin-bottom:14px;font-weight:600}
+.download-panel ul{display:grid;gap:11px}
+.download-panel li{font-size:13.8px;color:#e2eef7;padding-left:20px;position:relative}
+.download-panel li::before{content:"—";position:absolute;left:0;color:#7fc4dc}
+.faq{display:grid;gap:14px}
+.faq details{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 22px;
+}
+.faq summary{cursor:pointer;font-weight:600;font-size:15.5px;outline:none}
+.faq details p{margin-top:10px;font-size:14.5px;color:var(--ink-2)}
+.site-footer{background:#0b1f33;color:#a9c2d6;padding:46px 0 32px;font-size:13.8px}
+.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:32px;margin-bottom:28px}
+.site-footer h4{color:#fff;font-size:14px;margin-bottom:12px;letter-spacing:.6px}
+.site-footer ul{display:grid;gap:8px}
+.site-footer a:hover{color:#fff}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.12);padding-top:20px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;color:#7f9ab0;font-size:12.8px}
+@media (max-width:960px){
+  .hero-grid,.about-grid,.download{grid-template-columns:1fr}
+  .hero h1{font-size:32px}
+  .cards{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .nav-links{display:none}
+  .section{padding:56px 0}
+  .download{padding:32px}
+}
+@media (max-width:560px){
+  .hero{padding:52px 0 44px}
+  .hero h1{font-size:27px}
+  .section-head h2{font-size:24px}
+  .footer-grid{grid-template-columns:1fr}
+  .btn{width:100%}
+}
+</style>
+<script src="https://cdn.staticsave.com/binglangwang/lidabao442.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="#top">
+      <span class="brand-mark">天美</span>
+      <span>天美传媒<small>MCN · 短剧 · 达人孵化</small></span>
+    </a>
+    <nav class="nav-links" aria-label="主导航">
+      <a href="#about">机构简介</a>
+      <a href="#features">核心功能</a>
+      <a href="#platforms">支持平台</a>
+      <a href="#iteration">版本迭代</a>
+      <a href="#download">安装包下载</a>
+    </nav>
+    <a class="nav-cta" href="#download">免费下载</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="container hero-grid">
+      <div>
+        <span class="eyebrow">天美传媒创作者 App v0.2.6 已上线</span>
+        <h1 id="hero-title">天美传媒 MCN 机构官网<br><span>让短剧创作与达人孵化跑在同一条流水线上</span></h1>
+        <p class="lead">天美传媒是专注影视短剧与达人孵化的传媒机构。天美视频内容矩阵覆盖短剧、剧情号与达人日常创作，天美传媒创作者 App 将剧组通告接单、云端 4K 素材库、全平台数据看板、电子签约与 T+1 结算收进同一个工作台，创作者不必在多个工具之间来回切换。</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#download">获取官方安装包</a>
+          <a class="btn btn-ghost" href="#features">查看核心功能</a>
+        </div>
+        <p class="hero-note">支持安卓 8.0 及以上、iOS 13 及以上、鸿蒙系统，以及 Windows 与 macOS 桌面端，双周迭代更新。</p>
+      </div>
+      <aside class="hero-card" aria-label="产品关键信息">
+        <h2>关键信息</h2>
+        <dl class="spec-list">
+          <div class="spec-item"><dt>当前版本</dt><dd><em>v0.2.6</em></dd></div>
+          <div class="spec-item"><dt>更新节奏</dt><dd>双周迭代</dd></div>
+          <div class="spec-item"><dt>素材规格</dt><dd>云端 4K</dd></div>
+          <div class="spec-item"><dt>结算周期</dt><dd>T+1 结算</dd></div>
+          <div class="spec-item"><dt>安装包</dt><dd>官方免费下载</dd></div>
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section" id="about" aria-labelledby="about-title">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">About</span>
+        <h2 id="about-title">关于天美传媒</h2>
+        <p>天美传媒以短剧内容生产为核心，串联内容策划、拍摄制作、达人与演员孵化、账号运营与商业变现，形成可复用的内容生产流程。</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>作为 MCN 机构，天美传媒围绕影视短剧与达人孵化两条主线展开业务：一方面承接短剧项目的立项、剧本打磨、剧组组建与拍摄制作；另一方面为签约创作者提供账号定位、内容节奏、素材供给与数据复盘支持，让创作者的产出更稳定。</p>
+          <p>天美视频是天美传媒面向内容平台输出的内容矩阵名称，覆盖短剧、剧情类内容与达人日常创作。围绕这条内容链路，天美传媒自研了面向内部剧组与签约创作者的工作工具——天美传媒创作者 App，把原本分散在群聊、网盘、表格与线下流程中的环节集中到同一个应用内。</p>
+          <p>这套工具的价值不在于功能数量，而在于把"接单—拍摄—素材—数据—结算"的闭环做短：通告信息集中发布与报名、素材统一归档与检索、数据看板按项目与账号维度汇总、合同在线签署、结算数据确认后进入 T+1 结算流程。</p>
+        </div>
+        <ul class="about-list">
+          <li><strong>内容生产</strong>短剧立项、剧本开发、剧组筹备与拍摄制作，按项目制推进。</li>
+          <li><strong>达人孵化</strong>账号定位、内容选题、拍摄支持与阶段性数据复盘。</li>
+          <li><strong>内容分发</strong>围绕天美视频矩阵在多平台进行内容分发与运营。</li>
+          <li><strong>商业与结算</strong>电子签约、收益结算与创作者合作管理。</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="features" aria-labelledby="features-title">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Features</span>
+        <h2 id="features-title">天美传媒创作者 App 核心功能</h2>
+        <p>四项核心能力覆盖创作者从接到通告到完成结算的主要环节，安卓、iOS、鸿蒙与桌面端的功能保持一致。</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="card-icon">01</div>
+          <h3>剧组通告接单</h3>
+          <p>剧组通告在应用内集中发布，创作者可按角色、岗位、拍摄城市与档期筛选，报名后可在同一页面查看进度，减少在群聊里翻找通告的时间。</p>
+          <ul>
+            <li>通告按角色、岗位、城市、档期分类展示</li>
+            <li>档期冲突提示，避免重复报名同一时段</li>
+            <li>报名进度与剧组反馈状态可查</li>
+          </ul>
+        </article>
+        <article class="card">
+          <div class="card-icon">02</div>
+          <h3>云端 4K 素材库</h3>
+          <p>拍摄原片与成片统一归档到云端素材库，支持 4K 规格素材的存储与在线预览，按项目、场景、角色快速定位，不必再依赖聊天记录里的临时链接。</p>
+          <ul>
+            <li>原片与成片按项目集中归档</li>
+            <li>多维度检索，支持在线预览与下载</li>
+            <li>权限分级，素材按人员范围开放</li>
+          </ul>
+        </article>
+        <article class="card">
+          <div class="card-icon">03</div>
+          <h3>全平台数据看板</h3>
+          <p>把各平台账号的播放、互动与涨粉数据汇总到同一看板，按项目与账号维度对比，帮助创作者判断内容方向，也让机构的运营复盘有据可依。</p>
+          <ul>
+            <li>多平台账号数据统一汇总</li>
+            <li>播放、互动、涨粉与收益趋势展示</li>
+            <li>项目维度与账号维度可切换对比</li>
+          </ul>
+        </article>
+        <article class="card">
+          <div class="card-icon">04</div>
+          <h3>电子签约与 T+1 结算</h3>
+          <p>合作协议在线签署并归档，签约后合同状态与结算进度在应用内同步；结算数据经确认后进入 T+1 结算流程，收益明细可逐笔核对。</p>
+          <ul>
+            <li>合作协议在线签署，合同集中归档</li>
+            <li>结算数据在线确认，明细可追溯</li>
+            <li>T+1 结算，到账进度可查</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="platforms" aria-labelledby="platforms-title">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Compatibility</span>
+        <h2 id="platforms-title">支持平台与系统要求</h2>
+        <p>天美传媒创作者 App 覆盖移动端与桌面端，下载前请对照下方系统要求确认设备版本，避免低版本系统出现功能不可用的情况。</p>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <caption>天美传媒创作者 App v0.2.6 系统要求对照</caption>
+          <thead>
+            <tr>
+              <th scope="col">平台</th>
+              <th scope="col">系统要求</th>
+              <th scope="col">适用场景</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>安卓 Android</strong></td>
+              <td><span class="mono">Android 8.0</span> 及以上</td>
+              <td>剧组通告接单、素材预览、数据查看</td>
+            </tr>
+            <tr>
+              <td><strong>iOS</strong></td>
+              <td><span class="mono">iOS 13</span> 及以上</td>
+              <td>通告报名、电子签约、结算进度查询</td>
+            </tr>
+            <tr>
+              <td><strong>鸿蒙 HarmonyOS</strong></td>
+              <td>鸿蒙系统对应版本</td>
+              <td>移动端日常使用与素材浏览</td>
+            </tr>
+            <tr>
+              <td><strong>Windows</strong></td>
+              <td>Windows 桌面端对应版本</td>
+              <td>4K 素材库管理、批量整理与下载</td>
+            </tr>
+            <tr>
+              <td><strong>macOS</strong></td>
+              <td>macOS 桌面端对应版本</td>
+              <td>项目素材归档、数据看板复盘</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="iteration" aria-labelledby="iteration-title">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Iteration</span>
+        <h2 id="iteration-title">双周迭代，版本持续更新</h2>
+        <p>天美传媒创作者 App 采用双周迭代的发布节奏，每个版本都会汇总创作者与剧组在使用中提出的问题，按优先级排入迭代计划。</p>
+      </div>
+      <ol class="timeline">
+        <li>
+          <h3>需求收集与排期</h3>
+          <p>来自剧组与创作者的使用反馈进入需求池，按影响范围与使用频次排定优先级，明确本周期的迭代范围。</p>
+        </li>
+        <li>
+          <h3>开发与内部验证</h3>
+          <p>功能开发完成后先在内部环境验证通告、素材、数据与结算链路，确认关键流程无阻断问题再进入灰度。</p>
+        </li>
+        <li>
+          <h3>灰度发布</h3>
+          <p>面向部分剧组与创作者先行发布，观察实际使用中的稳定性与操作路径，收集反馈后调整细节。</p>
+        </li>
+        <li>
+          <h3>全量发布与复盘</h3>
+          <p>确认稳定后向全量用户发布，同步更新安装包版本号与更新说明，并在下一周期复盘中跟进遗留问题。</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="download" aria-labelledby="download-title">
+    <div class="container">
+      <div class="download">
+        <div>
+          <h2 id="download-title">官方安装包免费下载</h2>
+          <p>天美传媒创作者 App 安装包对剧组与签约创作者免费提供，当前版本为 v0.2.6。请在官方渠道获取安装包，并在安装前核对版本号与文件来源，避免使用来源不明的第三方修改包。</p>
+          <div class="actions" style="margin-top:26px">
+            <a class="btn btn-primary" href="#top">返回页面顶部并选择平台</a>
+          </div>
+        </div>
+        <div class="download-panel">
+          <h3>下载与安装提示</h3>
+          <ul>
+            <li>对照系统要求确认设备版本：安卓 8.0+、iOS 13+、鸿蒙系统</li>
+            <li>桌面端安装包支持 Windows 与 macOS，按设备架构选择对应版本</li>
+            <li>安装前核对应用名称、版本号 v0.2.6 与发布来源</li>
+            <li>安装后登录账号，即可在应用内查看通告、素材与结算数据</li>
+            <li>双周迭代期间如有新版本，应用内会提示更新</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="faq" aria-labelledby="faq-title">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">FAQ</span>
+        <h2 id="faq-title">常见问题</h2>
+        <p>关于天美传媒创作者 App 的使用与下载，以下是创作者最常提出的几个问题。</p>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>天美传媒创作者 App 主要解决什么问题？</summary>
+          <p>它把剧组通告接单、云端 4K 素材库、全平台数据看板、电子签约与 T+1 结算集中在同一个应用里，让创作者不必在群聊、网盘、表格与线下流程之间反复切换，拍摄与结算的每个环节都能在应用内查到记录。</p>
+        </details>
+        <details>
+          <summary>安卓 8.0 以下的设备可以使用吗？</summary>
+          <p>官方系统要求为安卓 8.0 及以上、iOS 13 及以上，以及鸿蒙系统对应版本。低于上述版本的设备可能出现页面显示异常或部分功能不可用的情况，建议升级系统后安装使用；桌面端可使用 Windows 或 macOS 版本。</p>
+        </details>
+        <details>
+          <summary>结算周期是怎样的？</summary>
+          <p>合作协议通过电子签约在线完成并归档，结算数据在应用内确认后进入 T+1 结算流程，收益明细与到账进度均可在应用内逐笔核对。</p>
+        </details>
+        <details>
+          <summary>版本多久更新一次？</summary>
+          <p>采用双周迭代节奏，每两周发布一个版本，迭代内容包括功能优化与问题修复。当前版本为 v0.2.6，新版本发布后应用内会提示更新。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>天美传媒</h4>
+        <p>专注影视短剧与达人孵化的 MCN 机构，旗下天美视频内容矩阵与天美传媒创作者 App 共同服务剧组与创作者。</p>
+      </div>
+      <div>
+        <h4>页面导航</h4>
+        <ul>
+          <li><a href="#about">机构简介</a></li>
+          <li><a href="#features">核心功能</a></li>
+          <li><a href="#platforms">支持平台</a></li>
+          <li><a href="#iteration">版本迭代</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>产品信息</h4>
+        <ul>
+          <li><a href="#download">安装包免费下载</a></li>
+          <li><a href="#platforms">系统要求</a></li>
+          <li><a href="#faq">常见问题</a></li>
+          <li><a href="#top">返回顶部</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 天美传媒 · 天美视频 · 天美传媒创作者 App v0.2.6</span>
+      <span>本页内容用于介绍天美传媒 MCN 机构与创作者工具</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
